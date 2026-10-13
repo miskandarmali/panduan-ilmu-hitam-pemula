@@ -1,3 +1,12 @@
-# Selamat Datang ke Sistem Saya
+---
+layout: home
 
-Ini adalah muka depan dokumentasi. Sila rujuk menu di sebelah kiri untuk mula membaca.
+hero:
+  name: Panduan Ilmu Hitam Pemula
+  text: Panduan ringkas untuk pemula
+  tagline: Kenali asas dan kategori ilmu hitam dengan lebih mudah dan teratur.
+  actions:
+    - theme: brand
+      text: Mula Membaca
+      link: /pengenalan
+---

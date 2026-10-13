@@ -1,19 +1,23 @@
 {
   "name": "panduan-ilmu-hitam-pemula",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Panduan ringkas ilmu hitam untuk pemula (laman dokumentasi VitePress)",
+  "private": true,
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "test": "npm run docs:build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["vitepress", "dokumentasi", "panduan"],
+  "author": "miskandarmali",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "vitepress": "^1.6.4"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true,
+    "fsevents@2.3.3": true
   }
 }
